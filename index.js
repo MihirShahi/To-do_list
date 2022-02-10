@@ -1,8 +1,8 @@
 
-			var user = [];
+			var reminder = [];
 			function getuser(){
 				var data = "";
-				user.map((info , index)=>{
+				reminder.map((info , index)=>{
 					data = data + "<tr>";
 					data = data + "<td>" + index + "</td>";
 					data = data + "<td>" + info + "</td>";
