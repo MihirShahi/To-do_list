@@ -1,0 +1,27 @@
+<html>
+	<head>
+        <link rel="stylesheet" href = "style.css">
+	</head>
+	<body onload="getuser()">
+		<h2 align="center"> To-do list </h2>
+		<p align="center">
+		 <textarea rows="4" cols="50" id="fname" placeholder="Enter reminder"></textarea>
+							<br/><br/>  <button onclick="save()">Save</button>
+		</p>
+		<table align="center" cellpadding="10" width="500">
+			<thead>
+				<tr>
+					<th> Sl No </th>
+					<th> Reminder </th>
+					<th> Action </th>
+				</tr>
+			</thead>
+			<tbody id="container">
+				<tr>
+					<td colspan="2"> No Records ! </td>
+				</tr>
+			</tbody>
+		</table>
+        <script src="index.js"></script>
+	</body>
+</html>
